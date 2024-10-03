@@ -1,10 +1,13 @@
 {
   "dependencies": {
+    "@actian/baas": "^3.2.294",
     "express": "^5.0.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.7.4",
+    "@types/validator": "^13.12.2",
+    "@types/websocket": "^1.0.10",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
