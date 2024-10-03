@@ -7,7 +7,7 @@ This application accompanies the blog post, [Your First Node Express App with Ty
 To set up the application, first clone the repo. Then, install the dependencies by running yarn:
 
 ```bash
-yarn
+npm
 ```
 
 ## Starting the Server
@@ -15,7 +15,7 @@ yarn
 To start the server, run:
 
 ```bash
-yarn run start
+npm run start
 ```
 
 The server should now be running on port 3000.

@@ -1,11 +1,10 @@
 import express from "express";
-import bodyParser from "body-parser";
 import { routes } from "./routes";
 
 const app = express();
 const PORT = 3000;
 
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: false }))
 
 routes.forEach((route) => {
   const { method, path, middleware, handler } = route;
