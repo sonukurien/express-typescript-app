@@ -26,7 +26,7 @@ The server only has a few endpoints:
 
 - `GET /`&mdash;Returns "hello world"
 - `POST /users`&mdash;Adds a username/password pair to an in-memory user store
-- `POST /login`&mdash;Validates a username/password agains the in-memory user store
+- `POST /login`&mdash;Validates a username/password against the in-memory user store
 
 The GET endpoint can be viewed simply by navigating to `http://localhost:3000`. You should see "Hello world".
 
